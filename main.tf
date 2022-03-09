@@ -1,6 +1,5 @@
 provider "azurerm" {
-  source  = "hashicorp/azurerm"
-      version = "=2.97.0"
+  feature {}
 }
 
 resource "azurerm_resource_group" "vmrg" {
